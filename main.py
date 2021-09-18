@@ -18,5 +18,6 @@ async def embed(ctx): #Where embed is, you can change it to your command
   await ctx.send(embed=embed) #here you send the embed from line 14
 
 
-#I hope i help you :)
+
 bot.run("") #in the "" you paste your token. Now you can start the file
+#I hope i help you :)
