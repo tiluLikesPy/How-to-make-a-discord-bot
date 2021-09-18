@@ -14,3 +14,9 @@ async def embed(ctx): #Where embed is, you can change it to your command
   embed = discord.Embed(title=""here your title",
                         description="here you can set the description of the embed",
                         color=0x000000) #where the 000000 is, you can paste the hexa color code
+  await ctx.send("hi") # here you send a message but not a embed
+  await ctx.send(embed=embed) #here you send the embed from line 14
+
+
+#I hope i help you :)
+bot.run("") #in the "" you paste your token. Now you can start the file
