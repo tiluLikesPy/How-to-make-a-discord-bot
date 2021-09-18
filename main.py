@@ -11,6 +11,11 @@ async def on_ready():                         #this start the logging
   
 @bot.command() #the event for the command
 async def embed(ctx): #Where embed is, you can change it to your command
-  embed = discord.Embed(title=""here your title",
+  emb = discord.Embed(title=""here your title",
                         description="here you can set the description of the embed",
                         color=0x000000) #where the 000000 is, you can paste the hexa color code
+  await ctx.send(embed=emb) #now you are send the message. Where "embed=emb" is you can paste "a text"
+
+bot.run("") #in the "" you must paste you bot token.
+
+#I hope, I could help you. :)
