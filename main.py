@@ -11,4 +11,6 @@ async def on_ready():                         #this start the logging
   
 @bot.command() #the event for the command
 async def embed(ctx): #Where embed is, you can change it to your command
-  embed = discord.Embed(description="here you can set the description of the embed"
+  embed = discord.Embed(title=""here your title",
+                        description="here you can set the description of the embed",
+                        color=0x000000) #where the 000000 is, you can paste the hexa color code
